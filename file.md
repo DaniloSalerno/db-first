@@ -1,7 +1,7 @@
 # Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
 
-id BIGINT PRIMARY KEY,AUTO_INCRMENT,
-brand VARCHAR(20) NOT NULL,
+id BIGINT PRIMARY KEY AUTO_INCRMENT,
+id_brand INT(20) NOT NULL,
 model VARCHAR(30) NOT NULL,
 vin CHAR(17) UNIQUE NULL,
 engine_type VARCHAR(15) NOT NULL,
